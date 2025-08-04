@@ -14,6 +14,7 @@ protected:
 public:
     Shape();
     virtual void draw(Graphics& g) = 0;
-    virtual void loadFromXML(rapidxml::xml_node<>* node);
+    virtual void loadFromXML(xml_node<>* node);
     virtual ~Shape() {}
+
 };
